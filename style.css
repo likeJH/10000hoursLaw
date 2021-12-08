@@ -22,16 +22,19 @@
     url("https://fonts.gstatic.com/ea/notosanskr/v2/NotoSansKR-Regular.otf") format('opentype');
 }
 
+body {
+    background-color: #5b2386;
+}
+
 #app{
     font-family: GmarketSansMedium;
-    background-color: #5b2386;
     color: white;
     text-align: center;
     padding-bottom:70px;
 }
 
 .tit-law{
-    display: inline-block;
+    display: block;
     position: relative;
     margin-top:194px;
 }
@@ -285,5 +288,5 @@ overflow: hidden;
 }
 .cont-result{
     margin-bottom:83px;
-}   
+}  
 </style>
